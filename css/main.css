@@ -1,0 +1,138 @@
+*{padding:0;margin:0;}
+
+:root {
+  --main-black-color: #222;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  color: inherit !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+li {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+.Preloade3 main {
+  position:relative;
+  height: 94vh;
+  width:100vw;
+  background:#fff;
+  background-size:100vw auto;
+  background-repeat: no-repeat ;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  padding-bottom: 6.5vh;
+
+}
+.Preloade3 header{
+  width: 100vw;
+  overflow: hidden;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:4px;
+  background:#000;
+  color:#fff;
+  font-size:16px;
+}
+.Preloade3 .backButton{    
+  width: 8vw;
+  position: absolute;
+  left: 3vw;
+  max-width: 60px;}
+.Preloade3 .navbar{
+  width: 100vw;
+  height: 6vh;
+  background: white;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  border-top: 1px solid #eaeced;
+  padding: 4px 0;
+}
+.Preloade3 .navbaeelement {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.Preloade3 .navbaeelement img {
+  width: 22px;
+}
+.Preloade3 .waitinginfo {
+  background: linear-gradient(130deg, rgba(232,236,242,1) 0%, rgb(245 247 251 / 14%) 94%);
+}
+
+.Preloade3 .circle {
+  width:10vw;
+  height: 10vw;
+  border-radius: 6vw;
+  margin-left: 10vw;
+}
+.Preloade3 .line1 {
+  width: 38vw;
+  height: 4vw;
+  border: 0;
+  border-radius: 10vw;
+  background: linear-gradient(90deg, rgba(232,236,242,1) 0%, rgba(245,247,251,0.49653364763874297) 63%, rgba(245,247,251,0.33967090254070376) 96%, rgba(232,236,242,0.8438725832129726) 100%);
+}
+
+.Preloade3 .v2 {
+  width: 6vw;
+}
+.Preloade3 .v3 {
+  width: 18vw;
+}
+.Preloade3 .Section {
+  display: flex;
+  margin-top: 4vh;
+}
+
+.Preloade3 .bttLines{
+  display: flex;
+  margin-top: 10px;
+}
+.Preloade3 .Lines {
+  margin-left: 7vw;
+}
+.Preloade3 .squar {
+  width: 22vw;
+  height: 22vw;
+  border: 0;
+  border-radius: 12px;
+  margin: 0 1.5vw;}
+  .Preloade3 .squarCon{
+    display:flex;
+    padding: 0 2vw;
+    margin-top:16px;
+  }
+  .Preloade3 .containerelement{
+    display:flex;
+    flex-direction: column;
+  }
+/*  ----------- 01 -End Base CSS   -----------*/
+
+/* ----------- 02 -Start Header CSS   -----------*/
+
+
+/* ----------- 02 -End Header CSS   -----------*/
+
+/* ----------- 02 -Start Info user CSS   -----------*/
+
+
+/* ----------- 05- End Favoutite CSS   -----------*/
